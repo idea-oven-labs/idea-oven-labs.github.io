@@ -4,55 +4,48 @@ title: Contact
 section_id: contact
 ---
 
-<div class='full parallax' style='background-image: url(images/@stock/contact-header-bg.jpg); color: #fff;'>
+<div class='full parallax' style='background-image: url(images/section-header/contact-header-bg.jpg); color: #fff;'>
   <div class='row'>
     <div class='large-12 columns'>
-      {% include section-header.html title="Contact Us" color="#000" class="big" %}
+      {% include section-header.html title="Contact Us" tagline="We want to hear from you" color="#000" class="big" %}
     </div>
   </div>
   <div class='four spacing'></div>
 </div>
 
-
 <div class='full'>
   <div class='row'>
 
     <div class='medium-6 columns'>
-      <h3>Our mission</h3>
-      <p>At IO Labs, we have a new product vision to automate residential window coverings. Our goal is to build smart
-        solutions that will help to simplify the boring daily tasks, so you can focus on the exciting things. </p>
-      <p>Contact us anytime for more information.</p>
-    </div>
-    <!--
-      <div class='medium-8 columns'>
-        <div class='form'>
-          <div class='row'>
-            <form id='contact_form' method='POST'>
-              <div class='large-12 columns'>
-                <p id='thanks' style='display: none;'>
-                  Thanks for contacting us, we'll be in touch soon!
-                </p>
-              </div>
-              <div class='medium-12 columns'>
-                <input class='required' name='name' placeholder='NAME' type='text'>
-                <input class='required email' name='email' placeholder='EMAIL' type='text'>
-                <input class='required' name='subject' placeholder='SUBJECT' type='text'>
-                <textarea class='required' name='message' placeholder='MESSAGE'></textarea>
-                <input class='button white' type='submit'>
-              </div>
-            </form>
-          </div>
-        </div>
-        <div class='two spacing'></div>
-      </div>
-      -->
-    <div class='medium-2 columns'>
-    </div>
-    <div class='medium-4 columns'>
-      <div class='contact-details'>
-        <h4>Our Email</h4>
+      <h3>Our message</h3>
+      <p>If you are interested in learning more about our mission and products, please contact us for more information.
+      </p>
+      <p>We look forward to hearing from you.</p>
+      <div class='two spacing'></div>
+      <h3>Our Email</h4>
         <p>info@iolabs.ca</p>
+        <div class='two spacing'></div>
+    </div>
+    <div class='medium-6 columns'>
+      <h3>Send us a message</h3>
+      <div class='form'>
+        <div class='row'>
+          <form id='contact_form' action="https://formspree.io/info@iolabs.ca" method='POST'>
+            <div class='large-12 columns'>
+              <p id='thanks' style='display: none;'>
+                Thanks for contacting us, we'll be in touch soon!
+              </p>
+            </div>
+            <div class='medium-12 columns'>
+              <input class='required' name='name' placeholder='NAME' type='text'>
+              <input class='required email' name='email' placeholder='EMAIL' type='text'>
+              <textarea class='required' name='message' placeholder='MESSAGE'></textarea>
+              <input class='button white' type='submit'>
+            </div>
+          </form>
+        </div>
       </div>
+      <div class='two spacing'></div>
     </div>
   </div>
 </div>

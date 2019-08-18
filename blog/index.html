@@ -4,8 +4,7 @@ title: Blog
 section_id: blog
 ---
 
-
-{% for post in paginator.posts %}
+{% for post in site.posts %}
   <div class='big mod modBlogPost'>
     <div class='images'>
       {% for image in post.images %}

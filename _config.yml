@@ -12,7 +12,7 @@ url: "http://iolabs.ca" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
-
-
-paginate: 3
+plugins:
+  - jekyll-paginate
+paginate: 1
 paginate_path: "blog/page:num"

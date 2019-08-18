@@ -1,11 +1,11 @@
-- avatar: images/@stock/member-1.jpeg
+- avatar: images/team/william-wang.png
   name: William Wang
   position: Co-Founder
   socials:
     - link: https://www.linkedin.com/in/wwang10/
       icon: linkedin
   desc:
-- avatar: images/@stock/member-2.png
+- avatar: images/team/christopher-pang.png
   name: Christopher Pang
   position: Co-Founder
   socials:

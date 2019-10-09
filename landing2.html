@@ -29,7 +29,7 @@
     <link href="landing/css/fontawesome-all.css" rel="stylesheet">
     <link href="landing/css/swiper.css" rel="stylesheet">
     <link href="landing/css/magnific-popup.css" rel="stylesheet">
-    <link href="landing/css/styles.css" rel="stylesheet">
+    <link href="landing/css/styles2.css" rel="stylesheet">
 
     <!-- Favicon  -->
     <link rel="icon" href="landing/images/favicon.png">
@@ -48,30 +48,97 @@
     <!-- end of preloader -->
 
     <!-- Navigation -->
-    <nav class="navbar navbar-dark navbar-custom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
 
         <!-- Image Logo -->
-        <a class="navbar-brand logo-image" href="index.html"><img src="landing/images/logo.png" alt="alternative"></a>
+        <a class="navbar-brand logo-image" href="index.html"><img src="landing/images/logo.jpg" alt="alternative"></a>
 
+        <!-- Mobile Menu Toggle Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-awesome fas fa-bars"></span>
+            <span class="navbar-toggler-awesome fas fa-times"></span>
+        </button>
+        <!-- end of mobile menu toggle button -->
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#header">Welcome <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#solution">Solution</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#preview">Preview</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#research">Research</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#contact">Contact</a>
+                </li>
+            </ul>
+            <span class="nav-item social-icons">
+                <span class="fa-stack">
+                    <a href="https://www.facebook.com/iolabsinc" target="_blank">
+                        <i class="fas fa-circle fa-stack-2x facebook"></i>
+                        <i class="fab fa-facebook-f fa-stack-1x"></i>
+                    </a>
+                </span>
+                <span class="fa-stack">
+                    <a href="https://www.instagram.com/iolabsinc" target="_blank">
+                        <i class="fas fa-circle fa-stack-2x instagram"></i>
+                        <i class="fab fa-instagram fa-stack-1x"></i>
+                    </a>
+                </span>
+                <span class="fa-stack">
+                    <a href="https://twitter.com/ideaovenlabs" target="_blank">
+                        <i class="fas fa-circle fa-stack-2x twitter"></i>
+                        <i class="fab fa-twitter fa-stack-1x"></i>
+                    </a>
+                </span>
+                <span class="fa-stack">
+                    <a href="https://linkedin.com/company/io-labs-inc" target="_blank">
+                        <i class="fas fa-circle fa-stack-2x linkedin"></i>
+                        <i class="fab fa-linkedin fa-stack-1x"></i>
+                    </a>
+                </span>
+            </span>
+        </div>
     </nav> <!-- end of navbar -->
     <!-- end of navigation -->
+
 
     <!-- Header -->
     <header id="header" class="header">
         <div class="header-content">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-5 col-xl-6">
-                    </div> <!-- end of col -->
-                    <div class="col-lg-7 col-xl-6" style="background-color: rgba(255,255,255,0.8); padding: 20px;">
+                    <div class="col-lg-6">
                         <div class="text-container">
-                            <h1><span class="turquoise">Ready to make your</span> <br />blinds smart?</h1>
-                            <p class="p-large">Sign up to stay informed about our product and when it launches.</p>
+                            <h1><span class="turquoise">Ready to make your</span><br />blinds smart?</h1>
+                            <p class="p-large">We are building an affordable and easy to use smart home solution for
+                                automating blinds.
+                            </p>
+                            <p class="p-large">Sign up now to be stay informed about our product and when it
+                                launches.</p>
                             <div class="row">
-                                <span style="text-align: center; width: 100%; margin: 8px 16px;" class="btn-solid-lg">
-                                    JOIN OUR WAITING LIST</span>
+                                <div class="col-md-8">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control-input" required>
+                                        <label class="label-control" for="cname">Your Email Address</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <a class="btn-solid-lg" href="#services">SIGNUP</a>
+                                </div>
                             </div>
                         </div> <!-- end of text-container -->
+                    </div> <!-- end of col -->
+                    <div class="col-lg-6">
+                        <img style="margin-top: 20px; width: 100%; border: 8px solid #fff;"
+                            src="landing/images/blinds-person-1.jpg" alt="alternative">
                     </div> <!-- end of col -->
                 </div> <!-- end of row -->
             </div> <!-- end of container -->
@@ -79,19 +146,13 @@
     </header> <!-- end of header -->
     <!-- end of header -->
 
-    <div class="image-container d-md-none">
-        <img src="./landing/images/blinds-header.jpg" class="img-fluid" />
-    </div> <!-- end of image-container -->
-
     <!-- Solution -->
     <div id="solution" class="basic-2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12" style="text-align: center;">
                     <h2>Our Integrated Solution</h2>
-                    <p class="p-heading p-large">Aenean justo velit, ultricies rhoncus ligula a, finibus porttitor
-                        mauris. Suspendisse pellentesque, nisi sit amet fermentum consectetur, mauris sapien eleifend.
-                    </p>
+                    <p class="p-heading p-large">Aenean justo velit, ultricies rhoncus ligula a, finibus porttitor mauris. Suspendisse pellentesque, nisi sit amet fermentum consectetur, mauris sapien eleifend.</p>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
             <div class="row">
@@ -140,12 +201,14 @@
     </div> <!-- end of basic-2 -->
     <!-- end of solution -->
 
+    <img class="img-fluid" src="landing/images/blinds-person-2.jpg" alt="alternative">
+
     <!-- Preview -->
     <div id="preview" class="cards-1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2>Our Mobile Apps</h2>
+                    <h2>Preview Our Mobile Apps</h2>
                     <p class="p-heading p-large">We have created our iOS and Android apps to work seamlessly with our
                         hardware devices while also providing an enjoyable user experience for our customers.</p>
                 </div> <!-- end of col -->
@@ -192,15 +255,13 @@
     </div> <!-- end of cards-1 -->
     <!-- end of preview -->
 
-    <img class="img-fluid" src="landing/images/blinds-person-4.jpg" alt="alternative">
-
     <!-- Market Research -->
     <div id="research" class="basic-1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
                     <div class="text-container">
-                        <h2>Customer Research</h2>
+                        <h2>Market Research</h2>
                         <p>Through online surveys of potential customers, we have amassed an enlightening dataset on the
                             preferences of our target customers.</p>
                         <p>We hope to leverage this research data to build more beneficial and useful products for our
@@ -334,8 +395,7 @@
                                 <!-- Slide -->
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img class="card-image" src="landing/images/engineering-1.jpg"
-                                            alt="alternative">
+                                        <img class="card-image" src="landing/images/engineering-1.jpg" alt="alternative">
                                         <div class="card-body">
                                             <p class="testimonial-author"></p>
                                         </div>
@@ -346,8 +406,7 @@
                                 <!-- Slide -->
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img class="card-image" src="landing/images/engineering-2.jpg"
-                                            alt="alternative">
+                                        <img class="card-image" src="landing/images/engineering-2.jpg" alt="alternative">
                                         <div class="card-body">
                                             <p class="testimonial-author"></p>
                                         </div>
@@ -358,8 +417,7 @@
                                 <!-- Slide -->
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img class="card-image" src="landing/images/engineering-3.jpg"
-                                            alt="alternative">
+                                        <img class="card-image" src="landing/images/engineering-3.jpg" alt="alternative">
                                         <div class="card-body">
                                             <p class="testimonial-author"></p>
                                         </div>
@@ -370,8 +428,7 @@
                                 <!-- Slide -->
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img class="card-image" src="landing/images/engineering-4.jpg"
-                                            alt="alternative">
+                                        <img class="card-image" src="landing/images/engineering-4.jpg" alt="alternative">
                                         <div class="card-body">
                                             <p class="testimonial-author"></p>
                                         </div>
@@ -382,8 +439,7 @@
                                 <!-- Slide -->
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img class="card-image" src="landing/images/engineering-5.jpg"
-                                            alt="alternative">
+                                        <img class="card-image" src="landing/images/engineering-5.jpg" alt="alternative">
                                         <div class="card-body">
                                             <p class="testimonial-author"></p>
                                         </div>
@@ -415,22 +471,45 @@
     <div id="contact" class="form-2">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3"></div>
-                <div class="col-lg-6">
-                    <div class="text-container">
-                        <h1><span class="turquoise">Ready to make your</span> <br />blinds smart?</h1>
-                        <p class="p-large">Sign up to stay informed about our product and when it launches.</p>
-                        <div class="row">
-                            <span style="text-align: center; width: 100%; margin: 8px 16px;" class="btn-solid-lg">
-                                JOIN OUR WAITING LIST</span>
-                        </div>
-                    </div> <!-- end of text-container -->
+                <div class="col-lg-12">
+                    <h2>Contact Us</h2>
+                    <ul class="list-unstyled li-space-lg">
+                        <li class="address">Don't hesitate to send us a message</li>
+                        <li><i class="fas fa-envelope"></i><a class="turquoise"
+                                href="mailto:info@iolabs.ca">info@iolabs.ca</a></li>
+                    </ul>
                 </div> <!-- end of col -->
-                <div class="col-lg-3"></div>
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <!-- Contact Form -->
+                    <form id="contactForm" data-toggle="validator" data-focus="false">
+                        <div class="form-group">
+                            <input type="email" class="form-control-input" id="cemail" required>
+                            <label class="label-control" for="cemail">Email</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control-textarea" id="cmessage" required></textarea>
+                            <label class="label-control" for="cmessage">Your message</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="form-control-submit-button">SEND MESSAGE</button>
+                        </div>
+                        <div class="form-message">
+                            <div id="cmsgSubmit" class="h3 text-center hidden"></div>
+                        </div>
+                    </form>
+                    <!-- end of contact form -->
+
+                </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
     </div> <!-- end of form-2 -->
     <!-- end of contact -->
+
 
     <!-- Footer -->
     <div class="footer">
@@ -445,17 +524,12 @@
                 </div> <!-- end of col -->
                 <div class="col-md-4">
                     <div class="footer-col middle">
-                        <h4>More About Us</h4>
+                        <h4>Our Company Website</h4>
                         <ul class="list-unstyled li-space-lg">
                             <li class="media">
                                 <i class="fas fa-square"></i>
                                 <div class="media-body">Visit us at <a class="turquoise"
                                         href="index.html">www.iolabs.ca</a></div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body">Send us a message at <a class="turquoise"
-                                        href="mailto:info@iolabs.ca">info@iolabs.ca</a></div>
                             </li>
                         </ul>
                     </div>

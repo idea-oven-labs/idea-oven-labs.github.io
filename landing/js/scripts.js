@@ -26,8 +26,10 @@
     $(window).on('scroll load', function() {
 		if ($(".navbar").offset().top > 60) {
 			$(".fixed-top").addClass("top-nav-collapse");
+            $(".floating-button").show();
 		} else {
-			$(".fixed-top").removeClass("top-nav-collapse");
+            $(".fixed-top").removeClass("top-nav-collapse");
+            $(".floating-button").hide();
 		}
     });
 

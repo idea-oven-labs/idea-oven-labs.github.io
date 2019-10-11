@@ -1,6 +1,6 @@
-- name: Product
-  path: landing-home.html
-  section_id: product 
+#- name: Product
+#  path: landing-home.html
+#  section_id: product 
 - name: About
   path: about.html
   section_id: about

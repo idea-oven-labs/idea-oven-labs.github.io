@@ -1381,7 +1381,7 @@ $glowing-effect-color: none;
 // $include-html-top-bar-classes: $include-html-classes;
 
 // Background color for the top bar
-$topbar-bg-color: #fff;
+$topbar-bg-color: #222;
 // $topbar-bg: $topbar-bg-color;
 
 // Height and margin
@@ -1393,18 +1393,18 @@ $topbar-height: rem-calc(100);
 // $topbar-title-font-size: rem-calc(17);
 
 // Set the link colors and styles for top-level nav
-$topbar-link-color: #999;
-$topbar-link-color-hover: #888;
-$topbar-link-color-active: #888;
-$topbar-link-color-active-hover: #888;
+$topbar-link-color: #bbb;
+$topbar-link-color-hover: #fff;
+$topbar-link-color-active: #fff;
+$topbar-link-color-active-hover: #fff;
 // $topbar-link-weight: $font-weight-normal;
 $topbar-link-font-size: rem-calc(14);
 // $topbar-link-hover-lightness: -10%; // Darken by 10%
 // $topbar-link-bg: $topbar-bg;
-$topbar-link-bg-hover: #f9f9f9;
+$topbar-link-bg-hover: transparent;
 // $topbar-link-bg-color-hover: $charcoal;
-$topbar-link-bg-active: #f9f9f9;
-$topbar-link-bg-active-hover: scale-color(#f9f9f9, $lightness: -3%);
+$topbar-link-bg-active: transparent;
+$topbar-link-bg-active-hover: transparent;
 // $topbar-link-font-family: $body-font-family;
 $topbar-link-text-transform: uppercase;
 $topbar-link-padding: ($topbar-height / 5);

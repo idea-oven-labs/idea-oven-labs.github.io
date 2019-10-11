@@ -23,8 +23,6 @@ Preview our social media platform pages below and feel free to visit them to get
 [Visit Our Facebook Page](https://www.facebook.com/iolabsinc)
 
 ![image](/images/blog/social-media-facebook.jpg)
-
-Aut ea rem repudiandae tempore perferendis. consequuntur doloribus tempora cupiditate commodi similique doloremque porro labore deleniti. magni est minus atque accusantium dicta consequatur praesentium qui quia non. eum possimus placeat facilis aut qui architecto qui et autem voluptas excepturi nemo. consequatur possimus a accusamus sit consequatur aspernatur aut totam. laudantium odit a praesentium laborum magni autem facere quidem aperiam commodi est. dolore debitis doloremque ea impedit
 <br /><br />
 
 ##### Instagram
@@ -32,8 +30,6 @@ Aut ea rem repudiandae tempore perferendis. consequuntur doloribus tempora cupid
 [Visit Our Instagram Page](https://www.instagram.com/iolabsinc)
 
 ![image](/images/blog/social-media-instagram.jpg)
-
-Aut ea rem repudiandae tempore perferendis. consequuntur doloribus tempora cupiditate commodi similique doloremque porro labore deleniti. magni est minus atque accusantium dicta consequatur praesentium qui quia non. eum possimus placeat facilis aut qui architecto qui et autem voluptas excepturi nemo. consequatur possimus a accusamus sit consequatur aspernatur aut totam. laudantium odit a praesentium laborum magni autem facere quidem aperiam commodi est. dolore debitis doloremque ea impedit
 <br /><br />
 
 ##### Twitter
@@ -41,8 +37,6 @@ Aut ea rem repudiandae tempore perferendis. consequuntur doloribus tempora cupid
 [Visit Our Twitter Page](https://twitter.com/ideaovenlabs)
 
 ![image](/images/blog/social-media-twitter.jpg)
-
-Aut ea rem repudiandae tempore perferendis. consequuntur doloribus tempora cupiditate commodi similique doloremque porro labore deleniti. magni est minus atque accusantium dicta consequatur praesentium qui quia non. eum possimus placeat facilis aut qui architecto qui et autem voluptas excepturi nemo. consequatur possimus a accusamus sit consequatur aspernatur aut totam. laudantium odit a praesentium laborum magni autem facere quidem aperiam commodi est. dolore debitis doloremque ea impedit
 <br /><br />
 
 ##### LinkedIn

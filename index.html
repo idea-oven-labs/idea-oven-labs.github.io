@@ -2,7 +2,32 @@
 layout: default
 section_id: home
 slides:
-  - bg: images/intro-slide.jpg
+  - bg: images/intro-slide-1.jpg
+    klass: centered-text
+    small_title:
+      klass: bottom-to-top
+      text: Simplify your everyday life with
+    title:
+      klass: bottom-to-top
+      text: Smart blinds
+    buttons:
+      klass: bottom-to-top
+      items:
+        - text: Learn More
+          link_to: about.html
+  - bg: images/intro-slide-2.jpg
+    small_title:
+      klass: bottom-to-top
+      text: Easy smart home controls with our
+    title:
+      klass: bottom-to-top
+      text: Mobile apps
+    buttons:
+      klass: bottom-to-top
+      items:
+        - text: Learn More
+          link_to: about.html      
+  - bg: images/intro-slide-3.jpg
     small_title:
       klass: bottom-to-top
       text: Developing smart home devices to improve
@@ -17,15 +42,13 @@ slides:
 ---
 
 <div class='mod modDefaultSlider'>
-    <div class='sequence' data-autostop='on' data-timeout='0'>
-        <!--
+    <div class='sequence' data-autostop='off' data-timeout='3000'>
         <a class='sequence-prev' href='javascript:void(0);'>
         <span></span>
         </a>
         <a class='sequence-next' href='javascript:void(0);'>
         <span></span>
         </a>
-        -->
         <ul class='sequence-pagination'>
             {% for slide in page.slides %}
             {% if forloop.first %}
@@ -76,41 +99,6 @@ slides:
     </div>
 </div>
 
-<div class='full' style='background: #f7f6f2'>
-    <div class='row'>
-        <div class='large-12 columns'>
-            {% include section-header.html title="Our Solutions" %}
-            <div class='spacing'></div>
-        </div>
-    </div>
-    <div class='row'>
-        <div class='large-12 columns'>
-            <p>
-                We are working hard on all aspects of our first product including electromechanical and industrial
-                design, building our iOS and Android apps and strengthening our IoT cloud infrastructure.
-            </p>
-            <p>
-                We are excited to provide some previews of our mobile apps below. Our goals with
-                these apps is to bring a simple and intuitive user interface that our customers will enjoy using and
-                that will work seamlessly with our hardware products.
-            </p>
-            <p>
-                Continue to follow us as we work hard at enhancing these products in preparation for internal alpha
-                testing. We appreciate your support!
-            </p>
-        </div>
-    </div>
-    <div class='row'>
-        <div class='spacing'></div>
-        <p>
-            <img src="images/app-screenshots.png" />
-        </p>
-        <div class='spacing'></div>
-    </div>
-</div>
-
-<!--
-    
 <div class='full' style='background: #ffffff'>
     <div class='row'>
         <div class='large-12 columns'>
@@ -156,6 +144,38 @@ slides:
 
 </div>
 
+<!--
+<div class='full'>
+    <div class='row'>
+        <div class='large-12 columns'>
+            {% include section-header.html title="Our Solutions" %}
+            <div class='spacing'></div>
+        </div>
+    </div>
+    <div class='row'>
+        <div class='large-12 columns'>
+            <p>
+                We are working hard on all aspects of our first product including electromechanical and industrial
+                design, building our iOS and Android apps and strengthening our IoT cloud infrastructure.
+                We are excited to provide some previews of our mobile apps below.
+            </p>
+            <p>
+                Continue to follow us as we work hard at enhancing these products in preparation for internal alpha
+                testing. We appreciate your support!
+            </p>
+        </div>
+    </div>
+    <div class='row'>
+        <div class='spacing'></div>
+        <p>
+            <img src="images/app-screenshots.png" />
+        </p>
+        <div style="text-align: center;">
+            <img style="width: 40%;" src="images/apps-coming-soon.png" />
+        </div>
+        <div class='two spacing'></div>
+    </div>
+</div>
 -->
 
 <div class='full no-padding' style='background: #f0f0f0'>
@@ -166,7 +186,7 @@ slides:
                 <p>Want to learn more? Contact us for more details.</p>
             </div>
             <div class='medium-3 large-3 columns'>
-                <a class='button' href='contact.html'>Contact</a>
+                <a class='button' href='contact.html'>Contact Us</a>
             </div>
         </div>
     </div>

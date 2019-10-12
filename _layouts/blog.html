@@ -4,18 +4,18 @@ layout: default
 
 
 <div class='full parallax' style='background-image: url({{site.url}}/images/section-header/blog-header-bg.jpg); color: #fff;'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      {% include section-header.html title="Our blog" tagline="Follow our journey" color="#000" class="big" %}
-    </div>
+  <div class='two spacing'></div>
+    <div class='row'>
+      <div class='large-12 columns'>
+        {% include section-header.html title="Our blog" tagline="Follow our journey" color="#000" class="big" %}
+      </div>
   </div>
   <div class='four spacing'></div>
 </div>
 
-
 <div class='full' style='background: #f5f5f5'>
   <div class='row'>
-    <div class='large-9 columns'>
+    <div class='large-12 columns'>
 
       {{content}}
 
@@ -38,12 +38,6 @@ layout: default
         </div>
       {% endif %}
 
-
-      <div class='four spacing'></div>
-    </div>
-    <div class='large-3 columns' id='sidebar'>
-      {% include sidebar.html %}
-      <div class='four spacing'></div>
     </div>
   </div>
 </div>

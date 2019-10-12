@@ -1,13 +1,13 @@
 - avatar: images/team/william-wang.png
   name: William Wang
-  position: Co-Founder
+  position: Co-Founder & CEO
   socials:
     - link: https://www.linkedin.com/in/wwang10/
       icon: linkedin
   desc:
 - avatar: images/team/christopher-pang.png
   name: Christopher Pang
-  position: Co-Founder
+  position: Co-Founder & CTO
   socials:
     - link: https://www.linkedin.com/in/chrispang/
       icon: linkedin

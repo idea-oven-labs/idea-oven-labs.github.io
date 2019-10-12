@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Social Media Launch
+title:  Social media launch
 date:   2019-10-10 15:00:00
 images: images/blog/social-media.jpg
 excerpt:

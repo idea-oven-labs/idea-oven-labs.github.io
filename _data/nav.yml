@@ -1,12 +1,15 @@
-#- name: Product
-#  path: landing-home.html
-#  section_id: product 
+- name: Home
+  path: index.html
+  section_id: home
+- name: Product
+  path: product.html
+  section_id: product 
+- name: Updates
+  path: blog/index.html
+  section_id: blog  
 - name: About
   path: about.html
   section_id: about
-- name: Blog
-  path: blog/index.html
-  section_id: blog  
 - name: Contact
   path: contact.html
   section_id: contact

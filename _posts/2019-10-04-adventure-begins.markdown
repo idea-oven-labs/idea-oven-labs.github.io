@@ -13,3 +13,5 @@ On August 12th, after many years of ideas, friendship and snowboarding trip chat
 Looking towards the future, an exciting and arduous adventure awaits.
 
 Please follow our journey as we endeavour to do so. We appreciate everyone's support!
+
+![image](/images/blog/adventure-begins.jpg)

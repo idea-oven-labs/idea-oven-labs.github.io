@@ -64,7 +64,7 @@ jQuery(document).foundation();
       if ( scroll >= 40 ) {
         $('body').addClass('shrink');
       } else {
-        $('body').removeClass('shrink');
+        // $('body').removeClass('shrink');
       }
 
     });

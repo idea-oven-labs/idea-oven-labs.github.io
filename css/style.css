@@ -833,7 +833,7 @@ ul.shortcode-list i {
 }
 
 .contain-to-grid {
-  height: 100px;
+  height: 60px;
   -moz-transition-property: all;
   -o-transition-property: all;
   -webkit-transition-property: all;
@@ -860,7 +860,7 @@ ul.shortcode-list i {
   transition-duration: 0.2s;
 }
 .contain-to-grid .top-bar-section li:not(.has-form) a:not(.button) {
-  height: 100px;
+  height: 60px;
 }
 .contain-to-grid .top-bar-section .has-dropdown > a:after {
   -moz-transition-property: all;
@@ -874,8 +874,8 @@ ul.shortcode-list i {
   top: 3.57143rem;
 }
 .contain-to-grid .title-area, .contain-to-grid .title-area li, .contain-to-grid .title-area a {
-  height: 100px;
-  line-height: 100px;
+  height: 60px;
+  line-height: 60px;
   -moz-transition-property: all;
   -o-transition-property: all;
   -webkit-transition-property: all;
@@ -928,8 +928,8 @@ ul.shortcode-list i {
   line-height: 60px;
 }
 .f-topbar-fixed.shrink .top-bar .title-area, .f-topbar-fixed.shrink .top-bar .title-area li, .f-topbar-fixed.shrink .top-bar .title-area a {
-  height: 60px;
-  line-height: 60px;
+  height: 50px;
+  line-height: 50px;
 }
 .f-topbar-fixed.shrink .top-bar .title-area img, .f-topbar-fixed.shrink .top-bar .title-area li img, .f-topbar-fixed.shrink .top-bar .title-area a img {
   width: 70%;
@@ -1451,7 +1451,7 @@ form input.error, form textarea.error {
   font-style: italic;
 }
 .modBlogPost img {
-  width: 100%;
+  width: 90%;
 }
 .modBlogPost a:hover img {
   -moz-transition-duration: 0.5s;
@@ -3651,7 +3651,8 @@ body {
     height: auto;
   }
   .contain-to-grid .title-area img, .contain-to-grid .title-area li img, .contain-to-grid .title-area a img {
-    width: auto;
+    width: 60%;
+    margin-top: 5px;
   }
   .contain-to-grid .top-bar-section li:not(.has-form) a:not(.button) {
     height: 60px;
@@ -3670,7 +3671,7 @@ body {
   }
 
   .contain-to-grid.transparent {
-    height: 100px;
+    height: 60px;
     overflow: visible;
     position: relative;
   }
@@ -3729,7 +3730,7 @@ body {
     width: auto;
   }
   .f-topbar-fixed.shrink .top-bar .title-area a img {
-    width: auto;
+    width: 45%;
   }
 }
 @media only screen and (max-width: 767px) {

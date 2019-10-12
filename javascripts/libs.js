@@ -16646,10 +16646,11 @@ if (!JSON) {
               self.S('body').addClass('f-topbar-fixed');
             }
           } else if ($window.scrollTop() <= distance) {
-            if (self.S(klass).hasClass('fixed')) {
+            /*if (self.S(klass).hasClass('fixed')) {
               self.S(klass).removeClass('fixed');
               self.S('body').removeClass('f-topbar-fixed');
             }
+            */
           }
         }
       }

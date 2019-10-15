@@ -3730,7 +3730,7 @@ body {
     width: auto;
   }
   .f-topbar-fixed.shrink .top-bar .title-area a img {
-    width: 45%;
+    width: 25%;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -3768,6 +3768,9 @@ body {
   }
   .modBoxedSlider .caption h2 {
     font-size: 1.8rem;
+  }
+  .f-topbar-fixed.shrink .top-bar .title-area a img {
+    width: 40%;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -3829,8 +3832,22 @@ body {
   .modFullscreenSlider .fullscreen_slideshow .video_wrap {
     display: none;
   }
+  .f-topbar-fixed.shrink .top-bar .title-area a img {
+    width: 50%;
+  }  
 }
 
 .logo {
   width: 200px;
+}
+
+.sign-up-btn {
+  cursor: pointer; 
+  display: inline-block; 
+  background-color: #00bfd8; 
+  color: #fff; 
+  padding: 8px 20px; 
+  margin: 14px 8px; 
+  font-size: 0.9rem; 
+  font-weight: normal;
 }
